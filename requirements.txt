@@ -1,0 +1,45 @@
+# YouTube Assistant - Requirements
+# ===============================
+# Core dependencies for the YouTube AI Assistant application
+
+# Web Framework
+streamlit>=1.28.0
+
+# LangChain ecosystem
+langchain>=0.1.0
+langchain-community>=0.0.20
+langchain-groq>=0.1.0
+
+# Vector Database
+faiss-cpu>=1.7.4
+
+# Embeddings
+sentence-transformers>=2.2.2
+
+# YouTube integration
+youtube-transcript-api>=0.6.1
+pytube>=15.0.0
+
+# Environment management
+python-dotenv>=1.0.0
+
+# Text processing
+tiktoken>=0.5.0
+
+# HTTP requests
+requests>=2.31.0
+
+# Data manipulation
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Additional utilities
+urllib3>=2.0.0
+pydantic>=2.0.0
+
+# Development dependencies (optional)
+# Uncomment the following lines for development
+# pytest>=7.4.0
+# black>=23.0.0
+# flake8>=6.0.0
+# mypy>=1.5.0
